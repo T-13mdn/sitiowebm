@@ -3,56 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUSIC MEDIA - Música que nos marca</title>
+    <title>Sitio Web M</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #0a0a0a; 
+            color: #fff; 
+            line-height: 1.6;
+        }
+        nav {
+            background: #1a1a1a;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
+            gap: 30px;
+            flex-wrap: wrap;
         }
-        .container {
-            max-width: 600px;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            letter-spacing: 2px;
-        }
-        h2 {
-            font-size: 1.2em;
-            font-weight: 300;
-            margin-bottom: 30px;
-            color: #ccc;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #fff;
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background-color: #ccc;
-            transform: scale(1.05);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>MUSIC MEDIA</h1>
-        <h2>MÚSICA QUE NOS MARCA</h2>
-        <a href="https://elmtdnpruebaendg2026.wordpress.com/" class="btn" target="_blank">IR AL BLOG</a>
-    </div>
-</body>
-</html>
+        nav a {
+            color: #00ff88;
+            text-decoration: none
